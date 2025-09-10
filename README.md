@@ -1,36 +1,42 @@
-# 📊 Power BI Dashboard Project
+Power BI Dashboard - Customer Churn Analysis
+📌 Overview
 
-## 📝 Overview
-This project contains a Power BI dashboard (`power.pbix`) designed to transform raw data into meaningful insights.  
-It includes interactive reports and visualizations that help stakeholders monitor performance, identify trends, and support data-driven decision-making.  
+This dashboard provides insights into customer churn behavior using telecom dataset features such as total day calls, customer service calls, account length, international plan, and voicemail messages.
 
-## 🚀 Features
-- KPI Cards to display the most important metrics at a glance.  
-- Bar and Column Charts for category comparisons.  
-- Line Charts to analyze performance over time.  
-- Map Visualizations for geographic analysis (if applicable).  
-- Pie/Donut Charts for distribution and proportion analysis.  
-- Interactive filters and slicers for drill-down exploration.  
+It helps in identifying patterns and trends that may influence customer churn.
 
-## 📂 Project Files
-- `power.pbix` → Power BI file containing the data model and dashboards.  
+📊 Key Metrics (KPIs)
 
-## 🛠️ Tools & Technologies
-- **Microsoft Power BI Desktop** (for building the dashboard)  
-- **Data Source:** [Replace with your dataset type, e.g., Excel, CSV, SQL Database]  
+Total Day Calls: 67K
 
-## 📈 Key Insights
-This dashboard enables users to answer questions such as:  
-- Which categories or regions are performing the best?  
-- How do metrics evolve over time?  
-- What segments contribute most to overall performance?  
+Customer Service Calls: 1,043
 
-## 👤 Target Audience
-The dashboard is intended for **business managers, analysts, and decision-makers** who require a clear, interactive way to track performance.  
+Total International Charge: 1.84K
 
-## ▶️ How to Use
-1. Download the `.pbix` file.  
-2. Open it in **Power BI Desktop**.  
-3. Interact with the visuals and filters to explore insights.  
+Number of Voicemail Messages: 5,608
 
----
+📈 Visualizations
+
+Customer Service Calls by Churn → Shows how churn relates to the number of service calls.
+
+Account Length by International Plan → Comparison between customers with/without international plans.
+
+State and Churn Map → Geographic distribution of churn across US states.
+
+Churn Distribution → Overall percentage of churned vs non-churned customers.
+
+Evening Charge by Churn → Relation between total evening charges and churn.
+
+Night Calls by Churn → Effect of night call usage on churn.
+
+Account Length by State (Pie Chart) → Breakdown of account lengths by states.
+
+🎯 Purpose
+
+The dashboard is designed to:
+
+Understand the main factors contributing to customer churn.
+
+Provide management with visual insights to improve retention strategies.
+
+Support data-driven decision making in telecom business analysis.
